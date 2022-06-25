@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Game</title>
+    <link rel="stylesheet" href="RacingGame.css">
+</head>
+<body>
+    <h1 class="title" id="title">Racing Game</h1>
+    <div class="instructionsBlueCar">Blue car: <b>j</b> <b> and </b> <b>k</b> keys</div>
+    <div class="instructionsRedCar">Red car: <b>a</b> <b> and </b> <b>s</b> keys</div>
+
+    <canvas id="canvas" height="80" width="500"></canvas>
+    <div id ="results" class="results"></div>
+    <button id="startbutton" onclick="runGame()">Start</button>
+
+    <div>
+    <img id="redCar"/>
+    <img id="blueCar"/>
+    </div>
+
+
+    <script src="RacingGame.js"></script>
+</body>
+</html>
